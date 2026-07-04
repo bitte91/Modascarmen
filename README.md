@@ -1,16 +1,20 @@
-# Moda's Carmen Premium
+# Moda's Carmen - Logo + Vídeo + Carrossel
 
-Catálogo/PWA estático pronto para GitHub Pages, Vercel ou Netlify.
+Versão objetiva para início do site:
 
-## Como publicar no GitHub Pages
-1. Crie um repositório no GitHub.
-2. Envie os arquivos deste ZIP para a raiz do repositório.
-3. Vá em **Settings > Pages**.
-4. Em **Build and deployment**, selecione **Deploy from a branch**.
-5. Escolha a branch `main` e a pasta `/root`.
+- Logo institucional no topo
+- Vídeo em destaque com autoplay silencioso
+- Carrossel de promoções
+- Sacola interativa
+- Pedido direto pelo WhatsApp
 
-## Editar WhatsApp
-No `index.html`, procure por `const WHATSAPP_NUMBER`.
+## Como publicar
 
-## Tecnologias
-HTML, CSS e JavaScript puro. Sem backend.
+1. Envie todos os arquivos para o GitHub.
+2. No Vercel, importe o repositório.
+3. Framework: Other.
+4. Build command: deixe vazio.
+5. Output directory: deixe vazio.
+6. Deploy.
+
+O vídeo está em `assets/733.mp4`. Não remova a pasta `assets`.
